@@ -243,6 +243,9 @@ def scan_skill(root):
 
 def main():
     args = sys.argv[1:]
+    if args and args[0] in ("-h", "--help"):
+        sys.stdout.write((__doc__ or "").strip() + "\n")
+        sys.exit(0)
     if args and args[0] == "--body":
         body = args[1]
         companion = None

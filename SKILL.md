@@ -2,6 +2,9 @@
 name: prd-craft
 description: Write product requirements documents (PRD) with two specializations — general software/systems (app, web, mini program, admin platform, SaaS, internal tool) and agent-type systems (agent, copilot, rule-engine automation, ops/inspection/scheduling automation). Use when the user wants to clarify a fuzzy product idea, structure requirements, write or review a PRD, or produce 需求文档 / 产品需求 / 功能规格 / 需求规格说明书. It runs a WHY-WHAT-HOW discovery pass, routes the requirement to one of five requirement types and one of two specializations, freezes scope, then produces a two-document pair — a requirement-body-only PRD carrying zero meta content and zero unresolved markers, plus a companion document carrying version info, terminology, background, open items, non-core details and companion index. Output is quality-gated for flows, state machines, field validation, copy rules, exception handling, metrics and acceptance criteria.
 agent_created: true
+metadata:
+  version: "2.0"
+  updated: "2026-10-30"
 ---
 
 # PRD Craft（产品需求文档写作）
